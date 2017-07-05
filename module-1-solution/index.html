@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="Week1Assignment">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Assignement1</title>
+  </head>
+  <body>
+    <dev ng-controller="LunchCheckController">
+      Enter you lunch items (separated with comma):
+      <br>
+      <input type="text" ng-model="items" ;>
+      <br>
+      <button ng-click="lunchResult();">Check If Too Much
+      </button>
+      {{status}}
+    </dev>
+  </body>
+</html>
